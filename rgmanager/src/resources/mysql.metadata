@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!DOCTYPE resource-agent SYSTEM "ra-api-1-modified.dtd">
 <resource-agent version="rgmanager 2.0" name="mysql">
     <version>1.0</version>
 
@@ -58,7 +59,7 @@
 		<shortdesc lang="en">
 			Wait X seconds for correct end of service startup
 		</shortdesc>
-		<content type="number" default="30" />
+		<content type="integer" default="30" />
 	</parameter>
 
 	<parameter name="shutdown_wait">
